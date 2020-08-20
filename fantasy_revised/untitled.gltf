@@ -1,0 +1,638 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                14
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Birch_tree2",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "translation" : [
+                884.3180541992188,
+                -12.836479187011719,
+                -351.67938232421875
+            ]
+        },
+        {
+            "name" : "Birch_tree3",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "translation" : [
+                61.11297607421875,
+                -12.836479187011719,
+                -1172.799560546875
+            ]
+        },
+        {
+            "name" : "Deciduous_tree1",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "translation" : [
+                -239.97300720214844,
+                12.605010986328125,
+                -82.33970642089844
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Grass010_Plant_0"
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Grass010",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "translation" : [
+                853.8233642578125,
+                -16.199066162109375,
+                -62.23088073730469
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "GroundGrass_Ground_grass_0"
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "GroundGrass",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "translation" : [
+                59.14708709716797,
+                -112.58282470703125,
+                -331.7496337890625
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "GroundRoad_Ground_road_0"
+        },
+        {
+            "children" : [
+                7
+            ],
+            "name" : "GroundRoad",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "translation" : [
+                59.14708709716797,
+                -112.58282470703125,
+                -331.7496337890625
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "Rock1_Rock_0"
+        },
+        {
+            "children" : [
+                9
+            ],
+            "name" : "Rock1",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "translation" : [
+                8.36328125,
+                20.436553955078125,
+                -704.336181640625
+            ]
+        },
+        {
+            "children" : [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                11
+            ],
+            "name" : "Fantasy Landscape.FBX",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                12
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "children" : [
+                13
+            ],
+            "name" : "RootNode (gltf orientation matrix)",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ],
+            "scale" : [
+                0.09090890735387802,
+                0.09090890735387802,
+                0.09090890735387802
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Plant_COLOR_0",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Ground_grass_COLOR_0",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Ground_road_COLOR_0",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Rock",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Grass010_Plant_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3,
+                        "COLOR_0" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "GroundGrass_Ground_grass_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7,
+                        "TEXCOORD_0" : 8,
+                        "COLOR_0" : 9
+                    },
+                    "indices" : 10,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "GroundRoad_Ground_road_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 11,
+                        "NORMAL" : 12,
+                        "TEXCOORD_0" : 13,
+                        "COLOR_0" : 14
+                    },
+                    "indices" : 15,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "Rock1_Rock_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 16,
+                        "NORMAL" : 17,
+                        "TEXCOORD_0" : 18,
+                        "TEXCOORD_1" : 19
+                    },
+                    "indices" : 20,
+                    "material" : 3
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        },
+        {
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Plant_baseColor",
+            "uri" : "Plant_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Ground_grass_baseColor",
+            "uri" : "Ground_grass_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Ground_road_baseColor",
+            "uri" : "Ground_road_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Rock_baseColor",
+            "uri" : "Rock_baseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3026,
+            "max" : [
+                117.05429077148438,
+                1263.714111328125,
+                211.94537353515625
+            ],
+            "min" : [
+                -1701.17138671875,
+                -586.9692993164062,
+                -58.436927795410156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3026,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3026,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 3026,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 3026,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 7806,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 386,
+            "max" : [
+                1050.988037109375,
+                1131.63916015625,
+                171.00379943847656
+            ],
+            "min" : [
+                -1051.8798828125,
+                -1042.73583984375,
+                -37.12942123413086
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 386,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 386,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 386,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5123,
+            "count" : 1863,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5126,
+            "count" : 204,
+            "max" : [
+                1086.9195556640625,
+                1200.35009765625,
+                102.3428955078125
+            ],
+            "min" : [
+                -1066.6041259765625,
+                -1087.91064453125,
+                -68.89295196533203
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 204,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 204,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 204,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5123,
+            "count" : 585,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 16,
+            "componentType" : 5126,
+            "count" : 1308,
+            "max" : [
+                989.461181640625,
+                463.744873046875,
+                531.9228515625
+            ],
+            "min" : [
+                -916.496826171875,
+                -752.859130859375,
+                -106.455078125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 17,
+            "componentType" : 5126,
+            "count" : 1308,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 18,
+            "componentType" : 5126,
+            "count" : 1308,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 19,
+            "componentType" : 5126,
+            "count" : 1308,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 20,
+            "componentType" : 5123,
+            "count" : 5922,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 36312,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36312,
+            "byteOffset" : 36312
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24208,
+            "byteOffset" : 72624
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24208,
+            "byteOffset" : 96832
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48416,
+            "byteOffset" : 121040
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15612,
+            "byteOffset" : 169456
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4632,
+            "byteOffset" : 185068
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4632,
+            "byteOffset" : 189700
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3088,
+            "byteOffset" : 194332
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6176,
+            "byteOffset" : 197420
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3726,
+            "byteOffset" : 203596
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2448,
+            "byteOffset" : 207324
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2448,
+            "byteOffset" : 209772
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1632,
+            "byteOffset" : 212220
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3264,
+            "byteOffset" : 213852
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1170,
+            "byteOffset" : 217116
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15696,
+            "byteOffset" : 218288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15696,
+            "byteOffset" : 233984
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10464,
+            "byteOffset" : 249680
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10464,
+            "byteOffset" : 260144
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11844,
+            "byteOffset" : 270608
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 282452,
+            "uri" : "untitled.bin"
+        }
+    ]
+}
