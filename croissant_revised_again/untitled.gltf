@@ -1,0 +1,310 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                6
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Croissant_Croissant_0"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Croissant_Croissant_0.001"
+        },
+        {
+            "children" : [
+                0,
+                1
+            ],
+            "name" : "Croissant",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                100,
+                100,
+                100
+            ]
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "9ec2941e9ac44325985bcf9702e7d9c9.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "RootNode (gltf orientation matrix)",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ],
+            "scale" : [
+                0.07750437408685684,
+                0.07750437408685684,
+                0.07750437408685684
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Croissant",
+            "normalTexture" : {
+                "index" : 0,
+                "scale" : 0.3036687970161438,
+                "texCoord" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Croissant_Croissant_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Croissant_Croissant_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 5,
+                        "NORMAL" : 6,
+                        "TEXCOORD_0" : 7,
+                        "TEXCOORD_1" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Croissant_low_normal",
+            "uri" : "Croissant_low_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Croissant_baseColor",
+            "uri" : "Croissant_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Croissant_metallicRoughness",
+            "uri" : "Croissant_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 75369,
+            "max" : [
+                2.4097046852111816,
+                1.3978383541107178,
+                2.0046656131744385
+            ],
+            "min" : [
+                -2.578126907348633,
+                -2.1836202144622803,
+                -0.059735558927059174
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 75369,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 75369,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 75369,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5125,
+            "count" : 208227,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 27342,
+            "max" : [
+                2.4108805656433105,
+                1.3895478248596191,
+                1.4328725337982178
+            ],
+            "min" : [
+                -2.6147336959838867,
+                -2.1943323612213135,
+                -0.0623590424656868
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 27342,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 27342,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 27342,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 76029,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 904428,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 904428,
+            "byteOffset" : 904428
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 602952,
+            "byteOffset" : 1808856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 602952,
+            "byteOffset" : 2411808
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 832908,
+            "byteOffset" : 3014760
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 328104,
+            "byteOffset" : 3847668
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 328104,
+            "byteOffset" : 4175772
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 218736,
+            "byteOffset" : 4503876
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 218736,
+            "byteOffset" : 4722612
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 152058,
+            "byteOffset" : 4941348
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 5093408,
+            "uri" : "untitled.bin"
+        }
+    ]
+}
