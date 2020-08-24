@@ -1,0 +1,565 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6761,
+      "max": [
+        1.9737405776977539,
+        1.973740816116333,
+        0.97692197561264038
+      ],
+      "min": [
+        -1.9737402200698853,
+        -1.9737395048141479,
+        -0.98134970664978027
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 81132,
+      "componentType": 5126,
+      "count": 6761,
+      "max": [
+        0.99999219179153442,
+        0.99999213218688965,
+        1
+      ],
+      "min": [
+        -0.99999219179153442,
+        -0.99999213218688965,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 6761,
+      "max": [
+        1,
+        1,
+        0.99247539043426514,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.96660715341567993,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6761,
+      "max": [
+        1.0000098943710327,
+        1.0000003576278687
+      ],
+      "min": [
+        -1.0367907634645235e-05,
+        0.5
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 29736,
+      "max": [
+        6760
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 162264,
+      "componentType": 5126,
+      "count": 6146,
+      "max": [
+        1.8319268226623535,
+        1.8531614542007446,
+        0.94145333766937256
+      ],
+      "min": [
+        -1.8499348163604736,
+        -1.8821406364440918,
+        -0.89848744869232178
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 236016,
+      "componentType": 5126,
+      "count": 6146,
+      "max": [
+        0.99815559387207031,
+        0.99756401777267456,
+        0.99998509883880615
+      ],
+      "min": [
+        -0.9987226128578186,
+        -0.99751031398773193,
+        -0.99999558925628662
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 118944,
+      "componentType": 5125,
+      "count": 36864,
+      "max": [
+        6145
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 309768,
+      "componentType": 5126,
+      "count": 7690,
+      "max": [
+        0.98271214962005615,
+        1.2400473356246948,
+        0.18518650531768799
+      ],
+      "min": [
+        -1.163854718208313,
+        -0.86996960639953613,
+        -0.9281078577041626
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 402048,
+      "componentType": 5126,
+      "count": 7690,
+      "max": [
+        0.99969172477722168,
+        0.99983596801757812,
+        0.99999189376831055
+      ],
+      "min": [
+        -0.99956107139587402,
+        -0.99980282783508301,
+        -0.99996685981750488
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 266400,
+      "componentType": 5125,
+      "count": 46080,
+      "max": [
+        7689
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 494328,
+      "componentType": 5126,
+      "count": 20416,
+      "max": [
+        0.79528045654296875,
+        0.85117459297180176,
+        1.9100526571273804
+      ],
+      "min": [
+        -0.77575123310089111,
+        -0.70755124092102051,
+        0.71009224653244019
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 739320,
+      "componentType": 5126,
+      "count": 20416,
+      "max": [
+        0.99999582767486572,
+        0.99954771995544434,
+        0.99968314170837402
+      ],
+      "min": [
+        -0.99984896183013916,
+        -0.99999403953552246,
+        -0.99556982517242432
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 450720,
+      "componentType": 5125,
+      "count": 121392,
+      "max": [
+        20415
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Don42 (https://sketchfab.com/Don42)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bananen-pudding-banana-pudding-free-6b4275c9aba64e109ee606628e07d01a",
+      "title": "Bananen Pudding / Banana-pudding [FREE]"
+    },
+    "generator": "Sketchfab-7.27.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 936288,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 54088,
+      "byteOffset": 936288,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 984312,
+      "byteOffset": 990376,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108176,
+      "byteOffset": 1974688,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2082864,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Glass",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.4774928209258289
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Pudding",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.84010991880441899,
+          0.62329965511410135,
+          0.16145854379391755,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.601775471757098
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "sherry",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.16493444179952918,
+          0.0025993196282678771,
+          0.0019753058513570479,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.60787303273270776
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "cream",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.34567791078148824
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cylinder_Glass_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Roundcube_Pudding_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Roundcube.006_sherry_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8
+          },
+          "indices": 10,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Spiral_cream_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 12,
+            "POSITION": 11
+          },
+          "indices": 13,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "1aaeb299e8af4a42910fe4f916a8c092.fbx"
+    },
+    {
+      "children": [
+        4,
+        6,
+        8,
+        10
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        -1.6292067939183141e-05,
+        -99.999999999998678,
+        0,
+        0,
+        99.999999999998678,
+        -1.6292067939183141e-05,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Cylinder"
+    },
+    {
+      "mesh": 0,
+      "name": "Cylinder_Glass_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        -1.6292067939183141e-05,
+        -99.999999999998678,
+        0,
+        0,
+        99.999999999998678,
+        -1.6292067939183141e-05,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Roundcube"
+    },
+    {
+      "mesh": 1,
+      "name": "Roundcube_Pudding_0"
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        -0,
+        -1.6292067939183141e-05,
+        -99.999999999998678,
+        0,
+        0,
+        99.999999999998678,
+        -1.6292067939183141e-05,
+        0,
+        -0.9041106104850769,
+        151.87850952148438,
+        9.4943933486938477,
+        1
+      ],
+      "name": "Roundcube.006"
+    },
+    {
+      "mesh": 2,
+      "name": "Roundcube.006_sherry_0"
+    },
+    {
+      "children": [
+        11
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        -1.6292067939183141e-05,
+        -99.999999999998678,
+        0,
+        0,
+        99.999999999998678,
+        -1.6292067939183141e-05,
+        0,
+        0,
+        -6.1991481781005859,
+        0,
+        1
+      ],
+      "name": "Spiral"
+    },
+    {
+      "mesh": 3,
+      "name": "Spiral_cream_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
