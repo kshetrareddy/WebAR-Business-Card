@@ -1,0 +1,478 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 13541,
+      "max": [
+        0.95116692781448364,
+        0.016672698780894279,
+        0.95244485139846802
+      ],
+      "min": [
+        -0.95244485139846802,
+        -0.24272090196609497,
+        -0.95247501134872437
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 162492,
+      "componentType": 5126,
+      "count": 13541,
+      "max": [
+        0.99999332427978516,
+        1,
+        0.99986469745635986
+      ],
+      "min": [
+        -0.99999880790710449,
+        -1,
+        -0.99986124038696289
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 13541,
+      "max": [
+        0,
+        0
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 78336,
+      "max": [
+        13540
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 324984,
+      "componentType": 5126,
+      "count": 5518,
+      "max": [
+        0.94009280204772949,
+        2.2001373767852783,
+        0.9625474214553833
+      ],
+      "min": [
+        -0.96823900938034058,
+        -1.0567642450332642,
+        -0.94151574373245239
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 391200,
+      "componentType": 5126,
+      "count": 5518,
+      "max": [
+        0.9999995231628418,
+        0.90117359161376953,
+        0.99999821186065674
+      ],
+      "min": [
+        -0.99999988079071045,
+        -1,
+        -0.99999511241912842
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 108328,
+      "componentType": 5126,
+      "count": 5518,
+      "max": [
+        0.99000012874603271,
+        0.97624397277832031
+      ],
+      "min": [
+        0.02648601122200489,
+        0.010000006295740604
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 313344,
+      "componentType": 5125,
+      "count": 13248,
+      "max": [
+        5517
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 457416,
+      "componentType": 5126,
+      "count": 578,
+      "max": [
+        0.99191474914550781,
+        1,
+        0.99191474914550781
+      ],
+      "min": [
+        -0.99191474914550781,
+        -1,
+        -0.99191474914550781
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 464352,
+      "componentType": 5126,
+      "count": 578,
+      "max": [
+        0.99879664182662964,
+        0.91158616542816162,
+        0.99879664182662964
+      ],
+      "min": [
+        -0.99879664182662964,
+        -0.91158616542816162,
+        -0.99879664182662964
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 152472,
+      "componentType": 5126,
+      "count": 578,
+      "max": [
+        0.99870491027832031,
+        1
+      ],
+      "min": [
+        0,
+        0.011940475553274155
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 366336,
+      "componentType": 5125,
+      "count": 1140,
+      "max": [
+        577
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "kxvxn (https://sketchfab.com/kxvxn)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/plate-and-wine-bottle-c2cd9d2f8eb94c94964a7c90f4e36638",
+      "title": "Plate and Wine Bottle"
+    },
+    "generator": "Sketchfab-8.11.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 370896,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 157096,
+      "byteOffset": 370896,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 471288,
+      "byteOffset": 527992,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 999280,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Stains",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0.69863637288411462
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": false,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Material.002",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.37786499999999973,
+          1,
+          0.34792499999999993,
+          0.21378788803562973
+        ],
+        "metallicFactor": 0.78954546379320545,
+        "roughnessFactor": 0
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Material.005",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0.52874653745739475,
+          0,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.60772728197502368
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        4,
+        6,
+        8
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        0.76277428865432739,
+        0,
+        0,
+        0,
+        0,
+        0.76277428865432739,
+        0,
+        0,
+        0,
+        0,
+        0.76277428865432739,
+        0,
+        -0.046538054943084717,
+        0.220049187541008,
+        0.71883344650268555,
+        1
+      ],
+      "name": "Plate_1"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        0.22664470970630646,
+        0,
+        0,
+        0,
+        0,
+        0.53250014781951904,
+        0,
+        0,
+        0,
+        0,
+        0.22664470970630646,
+        0,
+        0.029136033728718758,
+        0.57005947828292847,
+        -0.42639011144638062,
+        1
+      ],
+      "name": "Bottle_2"
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        -0.061779588460922241,
+        -0,
+        0,
+        -0,
+        -0,
+        -0.076093949377536774,
+        0,
+        -0,
+        -0,
+        -0,
+        -0.061779588460922241,
+        -0,
+        0.029136033728718758,
+        1.7734106779098511,
+        -0.42639011144638062,
+        1
+      ],
+      "name": "Bottle Cork_3"
+    },
+    {
+      "mesh": 2,
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
