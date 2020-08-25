@@ -1,0 +1,240 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Node_29",
+            "translation" : [
+                2.270613193511963,
+                -3.712435245513916,
+                1.257719874382019
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Node_31",
+            "translation" : [
+                1.4662628173828125,
+                -3.6326773166656494,
+                1.3953713178634644
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Bowl1",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.10000000149011612
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Kuldon",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.10000000149011612
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh_12",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Mesh_13",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Bowl1_baseColor",
+            "uri" : "Bowl1_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Kuldon_baseColor",
+            "uri" : "Kuldon_baseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4602,
+            "max" : [
+                -2.074977397918701,
+                3.98284912109375,
+                -0.7760547399520874
+            ],
+            "min" : [
+                -2.504382371902466,
+                3.730726718902588,
+                -1.2055076360702515
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4602,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4602,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 22464,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2804,
+            "max" : [
+                -1.0723834037780762,
+                3.747739315032959,
+                -1.4033054113388062
+            ],
+            "min" : [
+                -1.396132469177246,
+                3.6461071968078613,
+                -1.727090835571289
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 2804,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 2804,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 11712,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 55224,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 55224,
+            "byteOffset" : 55224
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36816,
+            "byteOffset" : 110448
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 44928,
+            "byteOffset" : 147264
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 33648,
+            "byteOffset" : 192192
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 33648,
+            "byteOffset" : 225840
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 22432,
+            "byteOffset" : 259488
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23424,
+            "byteOffset" : 281920
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 305344,
+            "uri" : "untitled.bin"
+        }
+    ]
+}
