@@ -1,0 +1,234 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Node_19",
+            "translation" : [
+                0,
+                -3.1765668392181396,
+                0.9656690359115601
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Node_21",
+            "translation" : [
+                0,
+                -3.1765668392181396,
+                0.9656690359115601
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "TeaDish3",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.05049542710185051
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "WhiteGeneral",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.06269054859876633
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh_7",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Mesh_8",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "TeaDish3_baseColor",
+            "uri" : "TeaDish3_baseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 8347,
+            "max" : [
+                0.6803237795829773,
+                4.520055294036865,
+                -0.6150213479995728
+            ],
+            "min" : [
+                -0.6284604668617249,
+                3.1819727420806885,
+                -1.3238126039505005
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 8347,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 8347,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 41472,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 5481,
+            "max" : [
+                0.23194441199302673,
+                4.596090316772461,
+                -0.7552117705345154
+            ],
+            "min" : [
+                -0.20453853905200958,
+                4.472220420837402,
+                -1.19020676612854
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 5481,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 5481,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 12480,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 100164,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 100164,
+            "byteOffset" : 100164
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 66776,
+            "byteOffset" : 200328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 82944,
+            "byteOffset" : 267104
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 65772,
+            "byteOffset" : 350048
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 65772,
+            "byteOffset" : 415820
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 43848,
+            "byteOffset" : 481592
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24960,
+            "byteOffset" : 525440
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 550400,
+            "uri" : "untitled.bin"
+        }
+    ]
+}
