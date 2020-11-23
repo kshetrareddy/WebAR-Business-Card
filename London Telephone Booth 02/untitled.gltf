@@ -1,0 +1,417 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "defaultMaterial",
+            "translation" : [
+                0,
+                1.0013571977615356,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "defaultMaterial.001",
+            "translation" : [
+                0,
+                1.0013571977615356,
+                0
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "defaultMaterial.002",
+            "translation" : [
+                0,
+                1.0013571977615356,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Red_Part",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.8000000715255737,
+                    0.0167507566511631,
+                    0.003142755478620529,
+                    1
+                ],
+                "metallicRoughnessTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "MetalPart",
+            "normalTexture" : {
+                "index" : 2,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 3,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 4,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 3,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Windows",
+            "normalTexture" : {
+                "index" : 5,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 6,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 7,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 6,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "defaultMaterial",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "defaultMaterial.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "defaultMaterial.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        },
+        {
+            "source" : 3
+        },
+        {
+            "source" : 4
+        },
+        {
+            "source" : 5
+        },
+        {
+            "source" : 6
+        },
+        {
+            "source" : 7
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Red_Part_normal",
+            "uri" : "Red_Part_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Red_Part_metallicRoughness",
+            "uri" : "Red_Part_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "MetalPart_normal",
+            "uri" : "MetalPart_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "MetalPart_metallicRoughness",
+            "uri" : "MetalPart_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "MetalPart_baseColor",
+            "uri" : "MetalPart_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Windows_normal",
+            "uri" : "Windows_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Windows_metallicRoughness",
+            "uri" : "Windows_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Windows_baseColor",
+            "uri" : "Windows_baseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 15693,
+            "max" : [
+                0.3327069878578186,
+                1,
+                0.3326970040798187
+            ],
+            "min" : [
+                -0.3327069878578186,
+                -1,
+                -0.3326970040798187
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 15693,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 15693,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 31026,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2887,
+            "max" : [
+                -0.23806099593639374,
+                -0.06201529875397682,
+                0.32892900705337524
+            ],
+            "min" : [
+                -0.27619901299476624,
+                -0.14743399620056152,
+                0.303864985704422
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 2887,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 2887,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 11904,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 359,
+            "max" : [
+                0.3052709996700287,
+                0.4434030055999756,
+                0.3029319941997528
+            ],
+            "min" : [
+                -0.30878299474716187,
+                -0.6502569913864136,
+                -0.18590599298477173
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 359,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 359,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 1056,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 188316,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 188316,
+            "byteOffset" : 188316
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 125544,
+            "byteOffset" : 376632
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 62052,
+            "byteOffset" : 502176
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 34644,
+            "byteOffset" : 564228
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 34644,
+            "byteOffset" : 598872
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23096,
+            "byteOffset" : 633516
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23808,
+            "byteOffset" : 656612
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4308,
+            "byteOffset" : 680420
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4308,
+            "byteOffset" : 684728
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2872,
+            "byteOffset" : 689036
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2112,
+            "byteOffset" : 691908
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 694020,
+            "uri" : "untitled.bin"
+        }
+    ]
+}
