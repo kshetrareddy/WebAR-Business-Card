@@ -1097,6 +1097,7 @@
             }
         },
         {
+            "alphaMode" : "BLEND",
             "doubleSided" : true,
             "emissiveFactor" : [
                 0,
@@ -1106,13 +1107,13 @@
             "name" : "glass",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    1,
-                    1,
-                    1,
-                    1
+                    0.6318354606628418,
+                    0.7528803944587708,
+                    0.7993378639221191,
+                    0.10000000149011612
                 ],
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0
+                "roughnessFactor" : 0.20512820780277252
             }
         },
         {
