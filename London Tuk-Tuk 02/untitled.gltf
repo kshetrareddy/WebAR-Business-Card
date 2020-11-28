@@ -798,6 +798,25 @@
                 0,
                 0
             ],
+            "name" : "seat",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.0983320027589798,
+                    0.09556400030851364,
+                    0.09849999845027924,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
             "name" : "metal",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
@@ -1045,25 +1064,6 @@
                 0,
                 0
             ],
-            "name" : "seat",
-            "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.0983320027589798,
-                    0.09556400030851364,
-                    0.09849999845027924,
-                    1
-                ],
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5
-            }
-        },
-        {
-            "doubleSided" : true,
-            "emissiveFactor" : [
-                0,
-                0,
-                0
-            ],
             "name" : "seat_stitch",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
@@ -1098,21 +1098,12 @@
         {
             "doubleSided" : true,
             "emissiveFactor" : [
-                0,
-                0,
-                0
+                1,
+                0.04136814922094345,
+                0.0025106240063905716
             ],
             "name" : "reflector_orange",
-            "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.7230299711227417,
-                    0.06323099881410599,
-                    0,
-                    1
-                ],
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.5
-            }
+            "pbrMetallicRoughness" : {}
         },
         {
             "alphaMode" : "BLEND",
@@ -1250,7 +1241,7 @@
                         "TEXCOORD_0" : 6
                     },
                     "indices" : 7,
-                    "material" : 0
+                    "material" : 1
                 }
             ]
         },
@@ -1264,7 +1255,7 @@
                         "TEXCOORD_0" : 10
                     },
                     "indices" : 11,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -1278,7 +1269,7 @@
                         "TEXCOORD_0" : 14
                     },
                     "indices" : 15,
-                    "material" : 1
+                    "material" : 2
                 },
                 {
                     "attributes" : {
@@ -1287,7 +1278,7 @@
                         "TEXCOORD_0" : 18
                     },
                     "indices" : 19,
-                    "material" : 2
+                    "material" : 3
                 }
             ]
         },
@@ -1301,7 +1292,7 @@
                         "TEXCOORD_0" : 22
                     },
                     "indices" : 23,
-                    "material" : 3
+                    "material" : 4
                 }
             ]
         },
@@ -1315,7 +1306,7 @@
                         "TEXCOORD_0" : 26
                     },
                     "indices" : 27,
-                    "material" : 4
+                    "material" : 5
                 }
             ]
         },
@@ -1329,7 +1320,7 @@
                         "TEXCOORD_0" : 30
                     },
                     "indices" : 31,
-                    "material" : 3
+                    "material" : 4
                 }
             ]
         },
@@ -1343,7 +1334,7 @@
                         "TEXCOORD_0" : 34
                     },
                     "indices" : 35,
-                    "material" : 5
+                    "material" : 6
                 }
             ]
         },
@@ -1357,7 +1348,7 @@
                         "TEXCOORD_0" : 38
                     },
                     "indices" : 39,
-                    "material" : 5
+                    "material" : 6
                 }
             ]
         },
@@ -1371,7 +1362,7 @@
                         "TEXCOORD_0" : 42
                     },
                     "indices" : 43,
-                    "material" : 4
+                    "material" : 5
                 }
             ]
         },
@@ -1385,7 +1376,7 @@
                         "TEXCOORD_0" : 46
                     },
                     "indices" : 47,
-                    "material" : 4
+                    "material" : 5
                 }
             ]
         },
@@ -1399,7 +1390,7 @@
                         "TEXCOORD_0" : 50
                     },
                     "indices" : 51,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -1413,7 +1404,7 @@
                         "TEXCOORD_0" : 54
                     },
                     "indices" : 55,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -1427,7 +1418,7 @@
                         "TEXCOORD_0" : 58
                     },
                     "indices" : 59,
-                    "material" : 6
+                    "material" : 7
                 }
             ]
         },
@@ -1441,7 +1432,7 @@
                         "TEXCOORD_0" : 62
                     },
                     "indices" : 63,
-                    "material" : 6
+                    "material" : 7
                 }
             ]
         },
@@ -1455,7 +1446,7 @@
                         "TEXCOORD_0" : 66
                     },
                     "indices" : 67,
-                    "material" : 6
+                    "material" : 7
                 }
             ]
         },
@@ -1469,7 +1460,7 @@
                         "TEXCOORD_0" : 70
                     },
                     "indices" : 71,
-                    "material" : 6
+                    "material" : 7
                 }
             ]
         },
@@ -1483,7 +1474,7 @@
                         "TEXCOORD_0" : 74
                     },
                     "indices" : 75,
-                    "material" : 6
+                    "material" : 7
                 }
             ]
         },
@@ -1497,7 +1488,7 @@
                         "TEXCOORD_0" : 78
                     },
                     "indices" : 79,
-                    "material" : 3
+                    "material" : 4
                 }
             ]
         },
@@ -1511,7 +1502,7 @@
                         "TEXCOORD_0" : 82
                     },
                     "indices" : 83,
-                    "material" : 7
+                    "material" : 8
                 }
             ]
         },
@@ -1525,7 +1516,7 @@
                         "TEXCOORD_0" : 86
                     },
                     "indices" : 87,
-                    "material" : 7
+                    "material" : 8
                 }
             ]
         },
@@ -1539,7 +1530,7 @@
                         "TEXCOORD_0" : 90
                     },
                     "indices" : 91,
-                    "material" : 8
+                    "material" : 9
                 }
             ]
         },
@@ -1553,7 +1544,7 @@
                         "TEXCOORD_0" : 94
                     },
                     "indices" : 95,
-                    "material" : 9
+                    "material" : 10
                 },
                 {
                     "attributes" : {
@@ -1562,7 +1553,7 @@
                         "TEXCOORD_0" : 98
                     },
                     "indices" : 99,
-                    "material" : 10
+                    "material" : 11
                 }
             ]
         },
@@ -1576,7 +1567,7 @@
                         "TEXCOORD_0" : 102
                     },
                     "indices" : 103,
-                    "material" : 9
+                    "material" : 10
                 },
                 {
                     "attributes" : {
@@ -1585,7 +1576,7 @@
                         "TEXCOORD_0" : 106
                     },
                     "indices" : 107,
-                    "material" : 10
+                    "material" : 11
                 }
             ]
         },
@@ -1599,7 +1590,7 @@
                         "TEXCOORD_0" : 110
                     },
                     "indices" : 111,
-                    "material" : 9
+                    "material" : 10
                 }
             ]
         },
@@ -1613,7 +1604,7 @@
                         "TEXCOORD_0" : 114
                     },
                     "indices" : 115,
-                    "material" : 11
+                    "material" : 12
                 }
             ]
         },
@@ -1627,7 +1618,7 @@
                         "TEXCOORD_0" : 118
                     },
                     "indices" : 119,
-                    "material" : 4
+                    "material" : 5
                 }
             ]
         },
@@ -1641,7 +1632,7 @@
                         "TEXCOORD_0" : 122
                     },
                     "indices" : 123,
-                    "material" : 12
+                    "material" : 13
                 }
             ]
         },
@@ -1655,7 +1646,7 @@
                         "TEXCOORD_0" : 126
                     },
                     "indices" : 127,
-                    "material" : 6
+                    "material" : 7
                 }
             ]
         },
@@ -1669,7 +1660,7 @@
                         "TEXCOORD_0" : 130
                     },
                     "indices" : 131,
-                    "material" : 12
+                    "material" : 13
                 }
             ]
         },
@@ -1683,7 +1674,7 @@
                         "TEXCOORD_0" : 134
                     },
                     "indices" : 135,
-                    "material" : 12
+                    "material" : 13
                 }
             ]
         },
@@ -1697,7 +1688,7 @@
                         "TEXCOORD_0" : 138
                     },
                     "indices" : 139,
-                    "material" : 11
+                    "material" : 12
                 }
             ]
         },
@@ -1711,7 +1702,7 @@
                         "TEXCOORD_0" : 142
                     },
                     "indices" : 143,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -1725,7 +1716,7 @@
                         "TEXCOORD_0" : 146
                     },
                     "indices" : 147,
-                    "material" : 11
+                    "material" : 12
                 }
             ]
         },
@@ -1739,7 +1730,7 @@
                         "TEXCOORD_0" : 150
                     },
                     "indices" : 151,
-                    "material" : 5
+                    "material" : 6
                 }
             ]
         },
@@ -1753,7 +1744,7 @@
                         "TEXCOORD_0" : 154
                     },
                     "indices" : 155,
-                    "material" : 13
+                    "material" : 14
                 }
             ]
         },
@@ -1767,7 +1758,7 @@
                         "TEXCOORD_0" : 158
                     },
                     "indices" : 155,
-                    "material" : 13
+                    "material" : 14
                 }
             ]
         },
@@ -1781,7 +1772,7 @@
                         "TEXCOORD_0" : 161
                     },
                     "indices" : 162,
-                    "material" : 9
+                    "material" : 10
                 }
             ]
         },
@@ -1795,7 +1786,7 @@
                         "TEXCOORD_0" : 165
                     },
                     "indices" : 166,
-                    "material" : 13
+                    "material" : 14
                 }
             ]
         },
@@ -1809,7 +1800,7 @@
                         "TEXCOORD_0" : 169
                     },
                     "indices" : 170,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -1823,7 +1814,7 @@
                         "TEXCOORD_0" : 173
                     },
                     "indices" : 174,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -1837,7 +1828,7 @@
                         "TEXCOORD_0" : 177
                     },
                     "indices" : 178,
-                    "material" : 3
+                    "material" : 4
                 }
             ]
         },
@@ -1851,7 +1842,7 @@
                         "TEXCOORD_0" : 181
                     },
                     "indices" : 182,
-                    "material" : 14
+                    "material" : 1
                 },
                 {
                     "attributes" : {
@@ -1874,7 +1865,7 @@
                         "TEXCOORD_0" : 189
                     },
                     "indices" : 190,
-                    "material" : 6
+                    "material" : 7
                 }
             ]
         },
@@ -1888,7 +1879,7 @@
                         "TEXCOORD_0" : 193
                     },
                     "indices" : 194,
-                    "material" : 6
+                    "material" : 7
                 }
             ]
         },
@@ -1902,7 +1893,7 @@
                         "TEXCOORD_0" : 197
                     },
                     "indices" : 198,
-                    "material" : 6
+                    "material" : 7
                 }
             ]
         },
@@ -1916,7 +1907,7 @@
                         "TEXCOORD_0" : 201
                     },
                     "indices" : 202,
-                    "material" : 6
+                    "material" : 7
                 }
             ]
         },
@@ -1930,7 +1921,7 @@
                         "TEXCOORD_0" : 205
                     },
                     "indices" : 206,
-                    "material" : 6
+                    "material" : 7
                 }
             ]
         },
@@ -1944,7 +1935,7 @@
                         "TEXCOORD_0" : 209
                     },
                     "indices" : 210,
-                    "material" : 11
+                    "material" : 12
                 }
             ]
         },
@@ -1972,7 +1963,7 @@
                         "TEXCOORD_0" : 217
                     },
                     "indices" : 218,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -2000,7 +1991,7 @@
                         "TEXCOORD_0" : 225
                     },
                     "indices" : 226,
-                    "material" : 4
+                    "material" : 5
                 }
             ]
         },
@@ -2028,7 +2019,7 @@
                         "TEXCOORD_0" : 233
                     },
                     "indices" : 234,
-                    "material" : 4
+                    "material" : 5
                 }
             ]
         },
@@ -2042,7 +2033,7 @@
                         "TEXCOORD_0" : 237
                     },
                     "indices" : 155,
-                    "material" : 13
+                    "material" : 14
                 }
             ]
         },
@@ -2056,7 +2047,7 @@
                         "TEXCOORD_0" : 240
                     },
                     "indices" : 241,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -2070,7 +2061,7 @@
                         "TEXCOORD_0" : 244
                     },
                     "indices" : 245,
-                    "material" : 11
+                    "material" : 12
                 }
             ]
         },
@@ -2121,7 +2112,7 @@
                         "TEXCOORD_0" : 260
                     },
                     "indices" : 261,
-                    "material" : 11
+                    "material" : 12
                 }
             ]
         },
@@ -2135,7 +2126,7 @@
                         "TEXCOORD_0" : 264
                     },
                     "indices" : 265,
-                    "material" : 11
+                    "material" : 12
                 }
             ]
         },
@@ -2149,7 +2140,7 @@
                         "TEXCOORD_0" : 268
                     },
                     "indices" : 269,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -2237,7 +2228,7 @@
                         "TEXCOORD_0" : 296
                     },
                     "indices" : 297,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         },
@@ -2251,7 +2242,7 @@
                         "TEXCOORD_0" : 300
                     },
                     "indices" : 301,
-                    "material" : 3
+                    "material" : 4
                 }
             ]
         },
@@ -2265,7 +2256,7 @@
                         "TEXCOORD_0" : 304
                     },
                     "indices" : 305,
-                    "material" : 1
+                    "material" : 2
                 }
             ]
         }
