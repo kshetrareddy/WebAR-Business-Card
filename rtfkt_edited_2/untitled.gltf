@@ -269,10 +269,8 @@
                     "index" : 8,
                     "texCoord" : 0
                 },
-                "metallicRoughnessTexture" : {
-                    "index" : 9,
-                    "texCoord" : 0
-                }
+                "metallicFactor" : 0.06363636255264282,
+                "roughnessFactor" : 0.1090909093618393
             }
         }
     ],
@@ -417,9 +415,6 @@
         },
         {
             "source" : 8
-        },
-        {
-            "source" : 9
         }
     ],
     "images" : [
@@ -467,11 +462,6 @@
             "mimeType" : "image/jpeg",
             "name" : "material_0_baseColor",
             "uri" : "material_0_baseColor.jpg"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "material_0_metallicRoughness",
-            "uri" : "material_0_metallicRoughness.png"
         }
     ],
     "accessors" : [
